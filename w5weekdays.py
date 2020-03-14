@@ -5,7 +5,7 @@
 #i will NOT need an input promt for the user
 #i will need to use the datetime class to output
 #the result
-#i will NOT need loops - but i may use them
+
 
 
 import datetime
