@@ -7,6 +7,9 @@
 # import math
 #p = (input("Enter a positive floating point number: "))
 
+#The following example of how to approximate a square root
+#found at https://www.youtube.com/watch?v=tUFzOLDuvaE  :
+
 def approxSqrt(num, error = 0.00001):
     guess = num
     diff = 999999999
@@ -23,4 +26,5 @@ def approxSqrt(num, error = 0.00001):
 
 print(approxSqrt(9))
 
+#Change this formula to display knowledge of how it works:
 

@@ -9,10 +9,6 @@
 # Have the program end if the current 
 # value is one.
 
-#$ python collatz.py
-#Please enter a positive integer: 10
-#10 5 16 8 4 2 1
-
 q = int(input("Input a positive integer: "))
 s = 2
 
