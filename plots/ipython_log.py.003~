@@ -1,0 +1,53 @@
+# IPython log file
+
+get_ipython().run_line_magic('logstart', '')
+a = 1
+b = 4
+c = -2
+import numpy as np
+import matplotlib.pyplot as plt
+1 = np.arange(0.0, 10.0, 0.5)
+1
+l = np.arange(0.0, 10.0, 0.5)
+l
+plt.plot(l,l**2)
+plt.plot(l,l**2,'.')
+plt.plot(l,l**2,'.')
+x = np.arange(1.0,10.0,1.0)
+y1 - x **2
+y1 = x **2
+y2 = 2**x
+y1
+y2
+plt.plot(x,y1)
+plt.show
+plt.show
+plt.plot(x, y2)
+plt.plot(x, y1)
+x = np.linspace(1.0, 10.0, 1000)
+y1 = x**2
+y2 = 2**x
+x = n.linspace(1.0,10.0,100)
+x = np.linspace(1.0,10.0,100)
+y1 = x**2
+y2 = 2**x
+plt.plot(x,y1)
+plt.plot(x,y1,'g.',label = 'squared')
+plt.plot(x,y2,'r.', label = "exponential")
+plt.legend
+plt.legend()
+plt.title("Hellow, World!")
+plt.xlabel("Hello X)
+plt.xlabel("Hello X")
+x = np.linspace(1.0,100.0,100)
+y1 = x**2
+y2 = 2**x
+x
+plt.plot(x,y1,'g.',label = 'squared')
+plt.plot(x,y1,'g.',label = 'squared')
+plt.plot(x,y2,'r.', label = "exponential")
+plt.plot(x,np.log(y1),'g.',label = "squared")
+plt.plot(x,np.log(y2),'r.', label = "exponential")
+plt.plot(x,np.log(y1),'g.',label = "squared")
+plt.plot(x,np.log(y2),'r.', label = "exponential")
+exit()
