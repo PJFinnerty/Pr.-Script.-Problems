@@ -1,0 +1,52 @@
+# IPython log file
+
+f = 2
+clear
+del f = 2
+del f
+f
+f = 2
+f
+del f
+get_ipython().run_line_magic('logstart', '')
+import numpy as np
+import matplotlib.pyplot as plt
+def f(x) = (1, 4)
+def f(x):     return plt.plot(x, 4)
+def g(x):     return plt.plot(x*x, 4)
+def h(x):     return plt.plot(x**3, 4)
+x = np.arange(0.0,4.0,0.5)
+plt.plot(f(x), g(x))
+plt.plot(2, 4)
+x = 2
+plt.plot(x, 4)
+plt.plot(f(1))
+f = (x, 4)
+g = (x*x, 4)
+h = (x**3, 4)
+x = np.linspace(0.0, 4.0, 0.2, 'g.')
+x = np.linspace (0.0, 4.0, 0.2)
+plt.plot(f)
+plt.plot(g)
+plt.plot(h)
+x = 1
+x = 2.5
+plt.plot(f)
+plt.plot(f)
+x = 2.5
+f = (x, 4)
+g = (x*x, 4)
+h = (x**3, 4)
+plt.plot(f)
+plt.plot(f)
+x = 4
+plt.plot(f)
+plt.plot(g)
+def f(x) = x
+def f(x, 4)
+def f(x)
+def f(x): (x, 4)
+def f(x): (x*x, 4)
+def f(x**3, 4)
+clear
+exit()
