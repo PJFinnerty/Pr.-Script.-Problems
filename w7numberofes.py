@@ -7,14 +7,31 @@
 #$ python es.py moby-dick.txt
 #116960
 
-filename = "moby-dick.txt"
-linecount = 0
+import re
+import sys
 
-with open(moby-dick.txt, 'r') as f:
-    for i in f:
-        linecount = linecount + 1
+print(sys.argv)
+print(type(sys.argv))
 
-print(linecount)
+with open ('slow.txt', 'r') as f:
+    lines = f.readlines()
+    for line in lines:
+        if re.search("e", line):
+             print(line)
+
+#example found at https://www.youtube.com/watch?v=MeocRDdeIQ8
+# https://www.youtube.com/watch?v=w33xQBGdBzk
+
+
+
+#filename = "moby-dick.txt"
+#linecount = 0
+
+#with open('moby-dick.txt', 'r') as f:
+ #   for i in f:
+  #      linecount = linecount + 1
+
+#print(linecount)
 
 
 #Example found at https://pythonexamples.org/python-count-number-of-characters-in-text-file/

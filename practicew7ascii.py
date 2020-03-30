@@ -1,5 +1,12 @@
 #peter finnerty
 #ascii table
 
-for i in range(0, 256):
-    print(f"{i:3} {i:08b} {chr(i)}")
+with open('slow.txt', 'r') as f:
+    for i in range(101, 102):
+        print(f" {chr(i)}")
+
+
+
+#f = open('slow.txt', 'r')
+#print(f.read(e) )
+
