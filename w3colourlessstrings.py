@@ -2,6 +2,7 @@
 
 #Create a Program that asks to a user to input a string and then prints to 
 # the screen the same string, displaying every second letter in reverse order.
+#---------------------------------------------------------------------------------
 
 #Step 1: Create an input prompt with a string asking the user to input a sentence
 sentence = (input("Enter a sentence:"))

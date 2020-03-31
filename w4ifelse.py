@@ -6,23 +6,23 @@
 # if it is even, divide it by two, but if it is odd, 
 # multiply it by three and add one. 
 # Have the program end if the current value is one.
-
-#Step1: Create a variable called 'q' and use an input prompt
+#------------------------------------------------------------------------------------
+#Create a variable called 'q' and use an input prompt
 #asking the user to enter a positive integer.
 q = int(input("Input a positive integer: "))
 
-#Step 2: Create a variable called 's' and assign it the value of 2.
+#Create a variable called 's' and assign it the value of 2.
 s = 2
 
-#Step 3: By calculating the modulus of 'q'/'s', determine if the input 
+#By calculating the modulus of 'q'/'s', determine if the input 
 # is even or odd.
 while (q != 1):
-     #Step 4: Use an 'if' statement to take an even input
+     #Use an 'if' statement to take an even input
         #and divide it by 2.
     if q % s == 0:
         print(q/2)
         break
-     #Step 5: The else statement will take an even input and
+     #The else statement will take an even input and
      #multiply by 3, then add 1.
     else:
         print(q * 3 + 1)
