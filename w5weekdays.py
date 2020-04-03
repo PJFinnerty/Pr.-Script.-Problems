@@ -1,9 +1,8 @@
 #Peter Finnerty - Week 5 Task
 
-#Write a program that outputs whether or not today is a weekday. 
-#I will need to use the datetime class to output
-#the result.
+#Write a program that outputs whether or not today is a weekday.
 #-----------------------------------------------------------------------
+
 #Import datetime.
 import datetime
 
@@ -30,7 +29,7 @@ for key, value in w.items():
 
 #Complete.
 
-#Information on datetime use found @
+#Information on datetime use (lines 26-28)found @
 #https://stackoverflow.com/questions/19167276/
 # pythonic-simplest-way-to-create-range-of-
 # weekday-date-objects

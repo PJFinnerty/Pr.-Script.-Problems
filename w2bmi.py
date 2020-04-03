@@ -3,9 +3,7 @@
 # Write a program that will calculate a persons BMI using figures provided
 # by the user
 # BMI result is the calculation of weight divided by height in meters squared
-#---------------------------------------------------------------------------
-#weight = 62
-#height = 1.76
+#---------------------------------------------------------------------------S
 
 #Create 2 input prompt for the user
 #requesting that the user input their weight and height in m2

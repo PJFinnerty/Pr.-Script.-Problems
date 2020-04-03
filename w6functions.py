@@ -28,7 +28,7 @@ else:
             guesslim = guesslim - 1
         #Return the squareroot of 'rooted' rounding to 4 decimal points.    
         return round(squareroot, 4)
-    print (sqrt(rooted, guess, guesslim) )
+    print( sqrt(rooted, guess, guesslim) )
 
 # Information on calculating square root using Babylonian method found at @ 
 # https://blogs.sas.com/content/iml/2016/05/16/babylonian-square-roots.html
@@ -38,6 +38,3 @@ else:
 
 #Further information found at @
 # https://github.com/ianmcloughlin/pyprimes/blob/master/functions.py
-
-#and 
-#https://www.youtube.com/watch?v=tUFzOLDuvaE 

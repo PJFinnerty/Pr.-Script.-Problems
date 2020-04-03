@@ -19,7 +19,8 @@ U = "E"
 L = "e"
 U2 = 0
 L2 = 0
-    
+Combined = U2 + L2
+   
 #Open input file as 'f' and read in file by line.
 with open(Arg, 'r') as f:
     for line in f:
