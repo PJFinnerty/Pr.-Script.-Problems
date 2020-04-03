@@ -2,6 +2,16 @@
 
 #Write a program that reads in a text file and outputs the number of e's it contains.
 #The program should take the filename from an argument on the command line.
+
+#   λ w7numberofes.py
+#   C:\Users\finne\Desktop\Scripting\w7numberofes.py is designed to count 
+#   occurances of the letter 'e' in a text file.
+
+#   Enter a text file name: w7moby-dick.txt
+
+#   Occurrences of the uppercase letter 'E':       1363
+#   Occurrences of the lowercase letter 'e':     116960
+#   Occurances of both uppercase and lowercase:  118323
 #---------------------------------------------------------------------------------
 
 #Import sys

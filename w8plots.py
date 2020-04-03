@@ -2,7 +2,8 @@
 
 #Write a program that displays a plot of the functions 
 # f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] 
-# on the one set of axes
+# on the one set of axes.
+#----------------------------------------------------------------
 
 #Import numpy for arrays and matplotlib for plotting.
 import numpy as np

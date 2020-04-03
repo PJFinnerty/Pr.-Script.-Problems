@@ -3,9 +3,9 @@
 # Write a program that will calculate a persons BMI using figures provided
 # by the user
 # BMI result is the calculation of weight divided by height in meters squared
-#---------------------------------------------------------------------------S
+#-----------------------------------------------------------------------------
 
-#Create 2 input prompt for the user
+#Create 2 input prompts for the user
 #requesting that the user input their weight and height in m2
 weight = float(input("Enter your weight in kilograms: "))
 height = float(input("Enter your height in metres squared: "))
