@@ -2,24 +2,18 @@
 
 # Write a program that takes a positive floating-point number as input 
 # and outputs an approximation of its square root. 
-# You should create a function called sqrt that does this.
-
-#   λ w6functions.py
-#   Enter the positive float which you require the square root of: 355
-#   Enter 1 guess for the square root: 22
-#   Minimum guess limit permitted is 7. Enter a maximum guess count (>7) : 10
-#   18.8414
+# You should create a function called 'sqrt' that does this.
 #-------------------------------------------------------------------------------
  
-# Create prompts for user to input no. to be squared, a guess at what the root is
+# Create prompts for user to input the no. to be squared, a guess at what the root is
 # and a guesslimit that must be over 7. 
 rooted = float(input("Enter the positive float which you require the square root of: ") )
 guess = float(input("Enter 1 guess for the square root: "))
 guesslim = float(input("Minimum guess limit permitted is 7. Enter a maximum guess count (>7) : "))
 
-# Use 'if' loop to ensure guess limit is > 7. 
-# This will ensure that the ensure that user input a guess count 
-# high enough to ensure an accurate approximation.
+# Use 'if' loop to ensure the guess limit is > 7. This will force the user 
+# to input a guess count high enough to ensure an accurate approximation 
+# (e.g a guess count of 1 would lead to an innacurate output).
 if guesslim <= 7:
     print("Guess count must be greater than 7.")
 else:

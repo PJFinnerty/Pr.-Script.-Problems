@@ -5,7 +5,6 @@
 # next value by taking the current value and, 7 if it is even, divide it by two,
 # but if it is odd, multiply it by three and add one. 
 # Have the program end if the current value is one.
-
 #------------------------------------------------------------------------------------
 
 # Create a variable called 'q' and use an input prompt to ask the user 
@@ -21,7 +20,7 @@ while q > 1:
     if q % s == 0:
         q = q/2
         q = int(round(q) )
-        print(",", q, end = " ")
+        print(q, end = " ")
 
     # Create an 'else' statement to take an odd input and multiply it by 3, then add 1.
     else:
@@ -29,9 +28,7 @@ while q > 1:
     # In both 'if' and 'else' loops, round output to remove 0, and remove end line characters.
     # This ensures that the returned figurs appear across the line(s) and are more readable.
         q = int(round(q) )
-        print(",", q, end = " ")
-
-print("- Complete.")
+        print(q, end = " ")
 
 # Complete
 
